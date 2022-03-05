@@ -138,7 +138,7 @@ footer{
   background-color: white;
   }
   #izquierda{
-    background-image: url(IMG/fondoizq.jpg);
+    background-image: url(/IMG/fondoizq.jpg);
   }
   h2{
  margin-top: 2vh !important;
