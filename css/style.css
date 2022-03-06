@@ -44,8 +44,12 @@ display: flex;
  
     }
     .login{
+      border-radius: 10px !important;
       word-break: normal;
       tab-size: 4;
+   border: solid 1;
+   border-width: thin;
+   border-color: gray !important;
       text-rendering: optimizeLegibility;
       -webkit-font-smoothing: antialiased;
       -webkit-text-size-adjust: 100%;
