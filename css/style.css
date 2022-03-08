@@ -29,9 +29,7 @@ padding-bottom: 7%;
 /* fin header */
 
 /* main Correo y Contraseña */
-.main{
 
-}
 
     .input-box{
   padding-bottom: 7%;
@@ -156,175 +154,80 @@ font-weight: 1;
   margin: 0 0 20px !important;
     
 }
- /*
-@media only screen and (min-width: 700px) {
-.logo{
-  width: 80vh;
-  margin-top: 25%;
-  background: white;
-}
 
-h2{
-  color: white;
-  max-width: 344px;
-  height: 72px;
-margin-left: 10px;
-margin-top: 10px !important;
-font-size: 34px !important;
-font-family: sans-serif;
 
-}
-#header{
-  background-image: url(/IMG/fondoizq.jpg);
 
-}
+@media only screen and (min-width: 768px) {
+
+  .header{
+    margin: 0px !important;
+    padding: 0px !important;
+    margin-top: -2% !important;
+    margin-left: -2% !important;
+    background-color: blue;
+    max-width: 50% !important;
+    height: 110% ;
+  }
+  main{
+    margin-top: -60%;
+    margin-left: 46% !important;
+   position: absolute;
+  }
 .iniciar{
-  margin-top: 60px !important;
-      font-size: 18px !important;
-    }
-      .btn{
-  
-        padding: 0 !important
-        ;
-   margin: 0 !important;
-
-     max-width: 90% !important;
-margin-left: 10px !important;
-  
-  
-      }
-      .login{
-        margin-top: 20px;
-        width: 100% !important;
-        height: 15%;
-        margin-bottom: 10px !important;
-          
-        }
-.columnafooter{
-width: 100% !important;
-  display: grid !important; 
-  grid-auto-columns: 1fr !important; 
-  grid-template-columns: 1fr 1fr 1fr 1fr !important; 
-  grid-template-rows: 1fr 1fr 1fr 1fr !important; 
-  gap: 0px 0px !important; 
-  grid-template-areas: 
-    ". . . ."
-    ". . . ."
-    ". . . ."
-    ". . . ." !important;
+  font-size: 15px;
 }
-
-
+.olvidado{
+  margin-top: -5%;
 }
+.hr1{
+  margin: 0px !important;
+  padding: 0px !important;
 
-@media only screen and (min-width: 376px) {
-  .logo{ 
-    position: relative;
-    margin-right: -10% !important;
-    padding: 5px;
-  max-width: 34vh;
-  }
-
-
+  margin-top: -1% !important;
 }
-@media only screen and (min-width: 375px) {
-  .logo{ 
-    position: relative;
-    margin-left: -120px !important;
-    padding: 5px;
-  max-width: 34vh;
-  }
-  h2{
-    width: 344px;
-    height: 72px;
- margin-left: 10px;
-  font-size: 28px !important;
-  font-family: sans-serif;
-
-  }
-
-  .iniciar{
-margin-top: 25px;
-    font-size: 15px !important;
-  }
-  .btn{
-    margin: 0;
-    padding: 0;
-    margin-left: -15px;
-    width: 100% !important;
-
-
-    }
-    .login{
-      margin-top: 20px;
-      width: 100%;
-      height: 15%;
-      margin-bottom: 10px !important;
-        
-      }
-      #olvidado{
-        margin-left: 25px;
-       }
-}
-
-
-@media only screen and (min-width: 280px) {
-
 
 .logo{
-position: relative;
- margin-left: -50px;
-  padding: 5px;
-max-width: 34vh;
-}
-h2{
   width: 344px;
-  height: 72px;
-text-align: start;
-font-size: 28px;
-font-family: sans-serif;
+}
+.texto-imagen{
+margin-left: -20%;
+color: white;
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 480px) {
+  *{
+    padding: 1%;
+  }
+
+  .texto{
+margin-left: 15%;
+    max-width: 344px;
+   
+  }
+  .texto-imagen{
+    font-size: 28px;
+  }
+  }
+  
+
+@media only screen and (min-width: 360px) {
+*{
+  padding: 1%;
 }
 .iniciar{
-
-  font-size: 12px;
+  font-size: 15px;
 }
-.btn{
-margin: 0;
-padding: 0;
-margin-left: -15px;
-width: 110% !important;
 }
-.login{
-width: 100%;
-height: 15%;
-margin-bottom: 40px;
-  
-}
-
-footer{
-
-text-align: center;
-  margin-top: 20vh;
-
-}
-.columnafooter{
-  display: grid; 
-  grid-auto-columns: 1fr; 
-  grid-template-columns: 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
-  gap: 0px 0px; 
-  grid-template-areas: 
-    ". ."
-    ". ."
-    ". ."
-    ". ."
-    ". ."
-    ". ."
-    ". ."
-    ". ."; 
-}
-#olvidado{
- margin-left: 15px;
-}
-
-} */
